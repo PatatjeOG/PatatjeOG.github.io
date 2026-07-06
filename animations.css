@@ -30,7 +30,7 @@
   }
 
   50% {
-    transform: translate(-50%, -50%) scale(1.12);
+    transform: translate(-50%, -50%) scale(1.04);
     opacity: 1;
     filter: drop-shadow(0 0 18px rgba(77, 211, 168, 0.45));
   }

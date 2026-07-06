@@ -66,7 +66,7 @@ body {
 .entrance-card {
   position: absolute;
   z-index: 4;
-  top:85%;
+  top:85vh;
   width: min(90vw, 640px);
   padding: 2rem 2.25rem;
   border: 1px solid rgba(255, 255, 255, 0.16);

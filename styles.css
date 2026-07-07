@@ -68,7 +68,7 @@ body {
   z-index: -1;
 }
 
-.entrance-card {
+.nametag{
   position: absolute;
   z-index: 4;
   top:80%;
@@ -76,13 +76,12 @@ body {
   padding: 2rem 2.25rem;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 24px;
-  background: rgba(3, 8, 14, 0.55);
-  backdrop-filter: blur(10px);
+
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
   text-align: center;
 }
 
-.eyebrow {
+.name {
   margin: 0 0 0.5rem;
   font-size: 0.8rem;
   letter-spacing: 0.28em;
@@ -90,14 +89,54 @@ body {
   color: #4dd3a8;
 }
 
-h1 {
+h1, h2, h3 {
   margin: 0 0 0.75rem;
-  font-size: clamp(2rem, 4vw, 3rem);
+  color: #4dd3a8;
+
 }
 
 p {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #dce9f6;
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+a {
+    margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #4dd3a8;
+  text-decoration: none;
+}
+a:hover {
+  animation: glow 1.5s infinite alternate;
+}
+
+.small-box {
+  position: absolute;
+  z-index: 5; 
+  width: auto;
+  height: auto; 
+  padding: 2rem ;
+  text-align: center;
+  opacity: 1;
+}
+.small-box-left {
+  top:5%;
+  left:14%;
+  animation: slide-left 2s ease-out;
+ 
+}
+.small-box-right {
+  top:5%;
+  right:14%;
+  animation: slide-right 2s ease-out;
+ 
+}
+
+.intro {
+  animation: fade-in 3.5s ease-out;
+  top:3%;
 }
